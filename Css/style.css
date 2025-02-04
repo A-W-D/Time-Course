@@ -1,7 +1,6 @@
 /*IMPORT FONTS*/
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400&display=swap');
 
-
 /* General Styles */
 body,
 html {
@@ -12,8 +11,8 @@ html {
     font: inherit;
     vertical-align: baseline;
     font-family: 'Raleway', sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.229);
     height: 100vh;
     overflow: hidden;
 }
@@ -70,7 +69,7 @@ video {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #000000cb;
+    background-color: #0000005f;
 }
 
 .logo img {
@@ -79,25 +78,26 @@ video {
     margin: 0 auto;
     display: block;
     border-radius: 50%;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(30, 30, 30);
 }
 
 .title {
-    font-weight: 800;
+    font-weight: 900;
     font-family: 'Raleway', sans-serif;
-    color: rgb(172, 4, 4);
+    color: rgb(255, 255, 255);
     line-height: normal;
     margin: 15px;
     letter-spacing: 0;
 }
 
 .subtitle {
-    font-weight: 400;
+    font-weight: 800;
     font-family: 'Raleway', sans-serif;
-    color: rgb(147, 147, 147);
+    color: rgb(255, 255, 255);
     line-height: normal;
     margin: 15px;
     letter-spacing: 0;
+    font-size: 25px;
 }
 
 .text {
@@ -114,6 +114,17 @@ video {
     margin-right: auto;
 }
 
+.btn {
+    background-color: #bb677ccf;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 /********************COUNT DOWN*******************/
 ul.count_down {
     list-style: none;
@@ -124,7 +135,7 @@ ul.count_down {
 
 ul.count_down li {
     display: inline-block;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     width: 90px;
     text-align: center;
@@ -133,7 +144,7 @@ ul.count_down li {
 ul.count_down li p:nth-child(1) {
     font-size: 55px;
     font-family: 'Roboto', sans-serif;
-    color: rgb(254, 254, 254);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     margin: 0;
 }
@@ -296,7 +307,7 @@ ul.count_down li p:nth-child(2) {
     }
 }
 
-/* New Media Queries for 300px and 200px */
+/*! New Media Queries for 300px and 200px */
 
 /* For screens up to 300px wide */
 @media (max-width: 300px) {
@@ -345,4 +356,3 @@ ul.count_down li p:nth-child(2) {
         font-size: 20px;
     }
 }
-
